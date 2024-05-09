@@ -1,0 +1,129 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f6f5;
+    color: #e210e2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header, footer {
+    background-color: #05eb19;
+    color: #f0f3f4;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #290428;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(35, 2, 225, 0.909);
+}
+
+.project h3 {
+    color: #330430;
+}
+
+.project p {
+    color: #300534;
+}
+
+/* Form styles */
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #1518ea;
+    color: #bfde11;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0bbae6;
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    background-color: #de15e1;
+    color: #f7f2f8;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0eb9cf;
+}
+
+
+/* Styles for logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for owner's name */
+#owner-name {
+    margin-right: 10px; /* Adjust the spacing between the image and the name */
+}
+/* Styles for logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for owner's name */
+#owner-name {
+    margin-right: 10px; /* Adjust the spacing between the image and the name */
+}
+
+/* Styles for the image */
+#owner-image {
+    max-width: 20px; /* Adjust the maximum width of the image */
+    height: auto;
+}
+
