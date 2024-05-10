@@ -8,8 +8,8 @@
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #dbe123;
-    color: #510551;
+    background-color: #ffffff;
+    color: #040004;
 }
 
 .container {
@@ -65,7 +65,9 @@ h2 {
 .project p {
     color: #300534;
 }
-
+.project p {
+    
+}
 /* Form styles */
 form input, form textarea, form button {
     display: block;

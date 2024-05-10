@@ -76,3 +76,16 @@ window.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// JavaScript for opening social media links in a new tab
+window.addEventListener("DOMContentLoaded", function() {
+    var socialLinks = document.querySelectorAll(".social-link");
+
+    socialLinks.forEach(function(link) {
+        link.addEventListener("click", function(event) {
+            event.preventDefault();
+            var url = this.href;
+            window.open(url, "_blank");
+        });
+    });
+});
